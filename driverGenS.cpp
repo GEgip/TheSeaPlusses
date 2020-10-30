@@ -1,12 +1,12 @@
-#include <iostream>
-#include "Examen.h"
+/*#include <iostream>
+#include "ExamenS.h"
 
 using namespace std;
 
 int main() {
-	Examen obj;
-	MyString question1;
-	MyString question2;
+	ExamenS obj;
+	string question1;
+	string question2;
 	int choice;
 	int day;
 	int month;
@@ -49,12 +49,12 @@ int main() {
 			obj.setSeconds(seconds);
 			cin.ignore();
 			cout << "Enter the first question on the exam:" << endl;
-			cin >> question1;
-			obj.setPregunta(question1, 1);
+			getline(cin, question1);
+			obj.setPregunta1(question1);
 
 			cout << "Enter the second question on the exam:" << endl;
-			cin >> question2;
-			obj.setPregunta(question2, 2);
+			getline(cin, question2);
+			obj.setPregunta2(question2);
 
 
 			cout << "The exam will show up like this:\n\n" << endl;
@@ -78,5 +78,5 @@ int main() {
 
 
 	return 0;
-}
+}*/
 
